@@ -1,0 +1,60 @@
+
+#media {
+    width: 720px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+nav {
+    width: 720px;
+    height: 40px;
+    margin: 5px auto;
+    background: rgb(100, 157, 159);
+    opacity: .7;
+    transition: .3s;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav:hover {
+    opacity: 1;
+}
+
+#buttons {
+    width: 135px;
+    height: 20px;
+    /* border: 1px solid blue; */
+    }
+
+    #play, #mute {
+        font-weight: bold;
+        width: 65px;
+        border-color: #fff;
+        transition: .3s;
+        border-radius: 10px;
+    }
+
+    button:hover {
+        background: rgb(58, 106, 108);
+        color: #fff;
+    }
+
+
+#bar {
+   width: 400px;
+   height: 7px;
+   border: 1px solid #fff;
+   padding: 2px;
+   border-radius: 5px;
+   
+}
+
+#progress {
+    width: 0;
+    height: 7px;
+    background: #fff;
+    border-radius: 5px;
+}
